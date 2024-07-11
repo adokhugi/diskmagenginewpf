@@ -1,0 +1,19 @@
+﻿<Window x:Class="DiskmagEngineWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DiskmagEngineWpf"
+        mc:Ignorable="d"
+        Title="Amaryllis Magazine Issue 1" Height="768" Width="1024">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="../component/Images/amaryllis.jpg"/>
+        </Grid.Background>
+        <RichTextBox Name="viewer" Opacity="0.8" Background="AliceBlue" HorizontalAlignment="Right" MaxWidth="500" IsReadOnly="True" VerticalScrollBarVisibility="Visible" 
+                     Visibility="Collapsed" ContextMenu="{x:Null}"></RichTextBox>
+        <Button x:Name="back" HorizontalAlignment="Left" VerticalAlignment="Top" Content="MENU"
+                Click="back_Click"></Button>
+        <Canvas Name="menu" HorizontalAlignment="Right" Width="500"></Canvas>
+    </Grid>
+</Window>
