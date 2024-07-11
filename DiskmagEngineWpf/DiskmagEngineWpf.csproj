@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="amaryllis.jpg" />
     <None Remove="component\Images\amaryllis.jpg" />
     <None Remove="component\Texts\metaphysics.rtf" />
   </ItemGroup>
